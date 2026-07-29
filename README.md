@@ -27,4 +27,4 @@ The implementation supports two primary modes:
 
 - Initial training-set selection: select a compact subset from one candidate pool.
 - Coverage-gap supplementation: compare a candidate pool with an existing probe/training set and select structures that add missing environments.
-#Requirements
+**#Requirements**
