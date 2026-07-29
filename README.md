@@ -6,6 +6,3 @@ The sampler represents each candidate structure as a set of discrete local chemi
 This repository accompanies the manuscript:
 
 Interpretable Local-Environment Coverage Strategy Enables Data-Efficient Neuroevolutionary Potentials for Disordered Fe–C Systems
-Overview
-
-The code addresses a common problem in MLIP development: a large candidate pool can contain many geometrically different structures but only a limited number of distinct local chemical environments. Labeling all candidates with density-functional theory (DFT) is therefore expensive and often redundant.
