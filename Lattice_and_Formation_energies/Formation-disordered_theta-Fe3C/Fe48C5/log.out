@@ -1,0 +1,132 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                     version 4.4                             *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA GeForce RTX 3090
+    Compute capability:      8.6
+    Amount of global memory: 23.5568 GB
+    Number of SMs:           82
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 53.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Box matrix h = [a, b, c] is
+    9.9635145541e+00   -4.5096437982e-05   -8.9348476496e-02
+   -6.1736757107e-05    7.3291679490e+00   -2.1463377008e-05
+   -1.0112465198e-01   -1.9807742852e-05    8.1019374248e+00
+Inverse box matrix g = inv(h) is
+    1.0037742567e-01    6.2061490241e-07    1.1069660998e-03
+    8.4919154544e-07    1.3644113588e-01    3.7082013254e-07
+    1.2528648054e-03    3.4131964430e-07    1.2344108441e-01
+Do not specify initial velocities here.
+Have no grouping method.
+There are 2 atom types.
+    5 atoms of type 0.
+    48 atoms of type 1.
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 2 atom types.
+    type 0 (C with Z = 6).
+    type 1 (Fe with Z = 26).
+    has the universal ZBL with inner cutoff 1 A and outer cutoff 2 A.
+    radial cutoff = 7.5 A.
+    angular cutoff = 6.5 A.
+    MN_radial = 210.
+    enlarged MN_radial = 263.
+    enlarged MN_angular = 179.
+    n_max_radial = 8.
+    n_max_angular = 6.
+    basis_size_radial = 12.
+    basis_size_angular = 12.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 1.
+    ANN = 51-60-1.
+    number of neural network parameters = 6361.
+    number of descriptor parameters = 832.
+    total number of parameters = 7193.
+
+Start to do an energy minimization.
+    using the fast inertial relaxation engine (FIRE) method.
+    with variable box.
+    with a force tolerance of 1e-05 eV/A.
+    for maximally 1000 steps.
+
+Energy minimization with changed box started.
+    step 0: total_potential = -446.2092946028 eV, f_max = 0.2900448614 eV/A, pressure = -0.1659547966 GPa.
+    step 100: total_potential = -446.2978462654 eV, f_max = 0.0113811932 eV/A, pressure = -0.0791686985 GPa.
+    step 200: total_potential = -446.3103285044 eV, f_max = 0.0093352977 eV/A, pressure = -0.0304457477 GPa.
+    step 300: total_potential = -446.3168799608 eV, f_max = 0.0077140069 eV/A, pressure = -0.0186410772 GPa.
+    step 400: total_potential = -446.3218231840 eV, f_max = 0.0065229503 eV/A, pressure = -0.0112723714 GPa.
+    step 500: total_potential = -446.3252739665 eV, f_max = 0.0050638095 eV/A, pressure = -0.0036064565 GPa.
+    step 600: total_potential = -446.3272373767 eV, f_max = 0.0040294657 eV/A, pressure = -0.0022664585 GPa.
+    step 700: total_potential = -446.3286876236 eV, f_max = 0.0031392935 eV/A, pressure = 0.0011725049 GPa.
+    step 800: total_potential = -446.3295399552 eV, f_max = 0.0025632703 eV/A, pressure = 0.0033508762 GPa.
+    step 900: total_potential = -446.3322722327 eV, f_max = 0.0182966427 eV/A, pressure = 0.0640608678 GPa.
+    step 1000: total_potential = -446.5257714334 eV, f_max = 0.0214750615 eV/A, pressure = 0.3880466197 GPa.
+Energy minimization finished.
+Use NVE ensemble for this run.
+Time step for this run is 0 fs.
+Dump extended XYZ.
+    for the whole system.
+    every 1 steps.
+    into file relaxed.xyz.
+Run 1 steps.
+    1 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 0.0075997 second.
+Speed of this run = 6973.96 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 3.796578 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+
