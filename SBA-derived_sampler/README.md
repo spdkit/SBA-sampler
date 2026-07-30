@@ -4,6 +4,8 @@
 
 The XYZ trajectory is available in the GitHub Release `data-v1.0`.
 
+## Note 
+## The "SBA-Derived_Sampler" folder mainly contains the scripts and the results of the NEP fitting potential . The candidate structure set and complete data set extraction process are available in the GitHub Release 'data-v1.0'.
 
 ## Table of Contents
 
