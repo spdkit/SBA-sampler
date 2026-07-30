@@ -9,6 +9,7 @@ This repository accompanies the manuscript:
 > **Interpretable Local-Environment Coverage Strategy Enables Data-Efficient Neuroevolutionary Potentials for Disordered Fe–C Systems**
 
 ---
+## Note that the "SBA-Derived_Sampler" folder mainly contains the scripts and the results of the NEP fitting potential functions. The complete data set extraction process and the candidate structure set are available in the GitHub Release 'data-v1.0'.
 
 ## Table of Contents
 
