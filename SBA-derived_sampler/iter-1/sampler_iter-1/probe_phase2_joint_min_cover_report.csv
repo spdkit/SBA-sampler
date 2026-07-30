@@ -1,0 +1,14 @@
+key,value
+probe_input,3573
+phase2_input,2342
+joint_candidates_with_envs,5915
+target_envs,91918
+selected_before_pruning,5881
+selected_after_pruning,5873
+covered_after_pruning,91918
+coverage_pct,100.0
+kept_probe_structures,3547
+kept_phase2_structures,2326
+removed_probe_structures,26
+removed_phase2_structures,16
+compression_pct_vs_probe_plus_phase2,0.7100591715976323
