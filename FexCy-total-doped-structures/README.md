@@ -1,7 +1,5 @@
 # Structure Beautification Algorithm (SBA)
 
-<style>
-</style>
 
 The SBA method  can be found in the published articles"**Accelerating structure relaxation in chemically disordered materials with a chemistry-driven model**." *NPJ Computational Materials* 11.1(2025). 
 
