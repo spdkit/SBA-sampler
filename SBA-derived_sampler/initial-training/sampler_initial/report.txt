@@ -1,0 +1,59 @@
+Compact probe + Phase2 topology sampler report
+============================================================
+time: 2026-07-28 19:33:14
+large_file: initial_remaining.xyz
+probe_file: 
+output_dir: sampler_initial
+
+[Input]
+large_structures_total: 20,625
+large_structures_physical_after_bond_filter: 18,826
+large_structures_nonphysical_after_bond_filter: 1,799
+write_nonphysical_xyz: True
+nonphysical_xyz_file: sampler_initial/nonphysical_bond_filtered.xyz
+nonphysical_manifest_csv: sampler_initial/nonphysical_bond_filtered_manifest.csv
+probe_structures_total: 0
+
+[Universe]
+raw_fingerprints: 133,855
+rare_raw_fingerprints: 82,145
+Fe_centered_raw_fingerprints: 124,705
+C_centered_raw_fingerprints: 9,150
+effective_fingerprints: 36,228
+rare_effective_fingerprints: 6,152
+compression_reduction_pct: 72.935
+geom_cluster_backend: ward
+scipy_ok: True
+scipy_version: 1.17.1
+
+[Reduction stack]
+Route A  jaccard_dedup_enabled: True
+         jaccard_dedup_threshold (rare): 0.85
+         jaccard_dedup_threshold_common: 0.7
+         jaccard_dedup_size_band_frac: 0.25
+Route C  two_tier_cover_enabled: True
+         rare_env_freq_threshold: 5
+         common_env_coverage_pct: 85.0
+Route D  post_cover_jaccard_dedup_enabled: True
+         post_cover_jaccard_threshold: 0.85
+         post_cover_jaccard_size_band_frac: 0.25
+
+[Single-set initial training selection]
+initial_train_target_envs: 36,228
+initial_train_candidate_structures_with_envs: 18,826
+initial_train_selected_structures: 3,573
+initial_train_prune_redundant_removed: 46
+initial_train_post_cover_jaccard_removed: 0
+initial_train_covered_envs: 36,206
+initial_train_uncovered_envs: 22
+initial_train_coverage_pct: 99.939273
+  n_rare_target: 23,631
+  n_common_target: 12,597
+  rare_selected: 3,550
+  common_selected: 69
+  coverage_rare_pct: 100.000
+  coverage_common_pct: 99.825
+
+[Phase2 gap supplement]
+phase2_selected_structures: 0
+phase2_covered_gap_effective_fingerprints: 0
