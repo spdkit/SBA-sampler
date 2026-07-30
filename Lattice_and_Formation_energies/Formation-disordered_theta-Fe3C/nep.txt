@@ -1,0 +1,2 @@
+Neighbor info at step 0: radial(max=263,actual=187), angular(max=179,actual=119).
+Neighbor info at step 1000: radial(max=263,actual=188), angular(max=179,actual=122).
