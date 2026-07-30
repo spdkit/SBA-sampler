@@ -1,0 +1,4 @@
+Generated manuscript figure files
+================================================================================
+Main-text figure, panels (a)-(f): FeC_MD_comparison_main_text_panels_a_f.png
+SI figure, panels (g)-(i): FeC_MD_comparison_SI_panels_g_i.png

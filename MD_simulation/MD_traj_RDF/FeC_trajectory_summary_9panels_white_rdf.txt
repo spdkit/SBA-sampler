@@ -1,0 +1,12 @@
+Fe-C trajectory summary
+================================================================================
+FORCE_TOTAL_TIME_PS = 10.0
+MAX_FRAMES = 200
+
+Name     File                  Atoms   Frames   Used      Time range / ps   Unwrapped Time source         
+--------------------------------------------------------------------------------------------------------------
+AIMD     traj-AIMD.xyz            40    10000    200    0.0000- 10.0000       False forced 0-10 ps      
+NEP      traj-NEP.xyz             40     1000    200    0.0000- 10.0000        True forced 0-10 ps      
+LASP     traj-lasp.xyz            40     1001    200    0.0000- 10.0000       False forced 0-10 ps      
+NEP89    traj-NEP89.xyz           40     1000    200    0.0000- 10.0000        True forced 0-10 ps      
+M3GNet   traj-M3GNET.xyz          40     1001    200    0.0000- 10.0000       False forced 0-10 ps      
